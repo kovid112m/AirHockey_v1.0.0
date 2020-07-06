@@ -131,7 +131,7 @@ while True:
         pen.write("A Wins",align='center',font=('Arial',30,'normal'),move=True)
         time.sleep(2)
         tk.mainloop()
-        trt.SCREEN().bye()
+        trt.Screen().bye()
         
     elif score_b == 4:
         pen.clear()
@@ -139,5 +139,4 @@ while True:
         pen.write("B Wins",align='center',font=('Arial',30,'normal'),move=True)
         time.sleep(2)
         tk.mainloop()
-        break
         trt.Screen().bye()
